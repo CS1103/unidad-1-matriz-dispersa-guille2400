@@ -9,17 +9,12 @@ using namespace std;
 
 class matrizDispersa {
 private:
-    int **matriz1;
-    int **matriz2;
+    int **matriz;
     int numfilas;
     int numcolumnas;
 public:
-    matrizDispersa();
-    void suma(int **, int**, int, int);
-    void multiplicacion(int **, int**, int, int);
-    void multiplicacionPunto(int **, int**, int, int);
-    void transposicion(int **, int**, int, int);
-    void matrizResultante(int **, int**, int, int);
+    matrizDispersa(int _numfilas, int _numcolumnas);
+
 
 
 };
